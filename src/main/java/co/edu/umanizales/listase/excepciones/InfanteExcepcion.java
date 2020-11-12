@@ -3,12 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package co.edu.umanizales.listase.modelo;
+package co.edu.umanizales.listase.excepciones;
 
 /**
  *
  * @author Nicolas Trujillo
  */
-public class ListaDECircular {
+public class InfanteExcepcion extends Exception{
     
+    public InfanteExcepcion(String message) {
+        super(message);
+    }
 }
